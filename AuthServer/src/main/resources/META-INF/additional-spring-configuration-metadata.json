@@ -1,0 +1,5 @@
+{"properties": [{
+  "name": "projeto.oauth.tokenTimeout",
+  "type": "java.lang.String",
+  "description": "A description for 'projeto.oauth.tokenTimeout'"
+}]}

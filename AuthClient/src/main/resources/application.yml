@@ -1,0 +1,15 @@
+server:
+ port: 9080
+ contextPath: /resource-service
+oauth2:
+ resource:
+ userInfoUri: http://localhost:8080/auth/user
+logging:
+ level:
+  org.springframework.security: DEBUG
+auth:
+ server:
+  url: http://localhost:8080/auth/oauth/check_token
+  clientId: admin
+  clientsecret: admin
+  
